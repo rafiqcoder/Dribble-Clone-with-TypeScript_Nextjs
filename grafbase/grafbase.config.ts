@@ -11,7 +11,7 @@ const user = g.model('user', {
 })
 
 const Project = g.model('project', {
-  title: g.string().length({ min: 2, max: 20 }),
+  title: g.string().length({ min: 3}),
   description: g.string().optional(),
   image: g.url(),
   liveSitUrl: g.url(),
