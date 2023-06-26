@@ -5,7 +5,7 @@ import React from 'react'
 import AuthProviders from '../AuthProviders'
 
 const Header = () => {
-  const session = {}
+  const session = null
   return (
     <nav>
       <div className="flext-1 flexStart gap-10">
